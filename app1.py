@@ -7,5 +7,5 @@ a=st.number_input('Enter NAME')
 result=''
 
 if st.predict('PREDICT'):
-   result=st.predict([[a]])
+   result=st.predict([a])
    st.success(result)
